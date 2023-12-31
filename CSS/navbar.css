@@ -115,24 +115,15 @@ body{
     align-items: center;
 }
 
-.register{
+.Logout{
     background-color: #88AB8E;
     color: beige;
 }
-.register:hover{
+.Logout:hover{
     background-color: beige;
     color: #88AB8E;
 
 }
-.login{
-    color: #88AB8E;
 
-}
-.login:hover{
-    background-color: #88AB8E;
-    color: beige;
-
-
-}
 
 

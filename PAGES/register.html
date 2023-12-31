@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <!-- style for footer -->
-    <link rel="stylesheet" href="./CSS/footer.css">
-    <!-- style for login-->
-    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <!-- style for Register-->
+    <link rel="stylesheet" href="../CSS/register.css">
     <!-- import icon from font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
         <div class="body">
             <form >
-                <h2>LOGIN</h2>
+                <h2>REGISTER</h2>
                 <div class="container">
+                    <div>
+                        <label for="name"><b>Full Name</b></label>
+                         <input id="name" type="text" placeholder="Enter Your Full Name" name="name" required>
+              
+                    </div>
+                    <div>
+                        <label for="phone"><b>Phone Number</b></label>
+                         <input id="phone" type="tel" placeholder="+216 xx xxx xxx" name="phone" required>
+              
+                    </div>
                     
                     <div>
                         <label for="email"><b>Email</b></label>
@@ -28,14 +38,14 @@
                         <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
                     </div>
                       
-                    <button type="submit" onclick="login()"><a href="./PAGES/homePage.html">Login</a></button>
+                    <button type="submit" onclick="register()"><a href="../index.html">Register</a></button>
                     
                   </div>
               
                   <div class="container2">
-                    <a href="./PAGES/register.html" class="register">Registre</a>
+                    <a href="../index.html">login</a>
                     
-                    <span class="psw">Forgot <a onclick="forgetPsw()" href="#">password?</a></span>
+                    
                   </div>
             </form>
         </div>
@@ -44,7 +54,8 @@
             <h1>L&I</h1>
             <p>ALL RIGHT RESREVED</p>
         </footer>
+    
 </body>
-<script src="./JS/login.js"></script>
+<script src="../JS/register.js"></script>
 </html>
 
